@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    margin: 0;
+    padding: 1.5%;
+}
+.problemsets{
+    width: 80%;
+    margin: 5% auto;
+    background-color: rgb(9, 44, 75);
+    padding: 2% 4%; 
+}
+.problemsets li{
+    font-size: 1.3rem;
+    color: white;
+    padding: 2% 1%;
+    background-color: #5964c4;
+    transition: all 0.2s ease-in;
+}
+.problemsets li:hover{
+    background-color: #767fd1;
+}
+.results{
+    margin-top: 4%;
+    color: white;
+    text-align: center;
+}
+.cs-span{
+    background-color: rgb(29, 36, 95);
+    padding: 0.3%;
+}
