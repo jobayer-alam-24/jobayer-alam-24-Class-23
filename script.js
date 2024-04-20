@@ -1,4 +1,5 @@
-// Problem 1:
+function allOperate(){
+    // Problem 1:
 // Write a JavaScript program to calculate the area of a rectangle. Take the length and width as inputs from the user.
 function area_ofRectangle(){
     let length = prompt("Submit the length of your desk(in metre): ");
@@ -67,3 +68,5 @@ function isLeapYear(){
     }
 }
 isLeapYear();
+
+}
